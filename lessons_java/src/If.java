@@ -1,8 +1,5 @@
-package com.company;
-
-public class Main {
-
-    public static void main(String[] args) {
+public class If {
+    public static void main(String[] arg) {
         int myInt = 20;
         if (myInt > 25) {
             ;
