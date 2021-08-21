@@ -5,8 +5,8 @@ public class Lesson_this {
         human1.setAge(18);
         human1.getInfo();
         Human human2 = new Human();
-        human1.setName("Tom");
-        human1.setAge(18);
+        human1.setName("Bob");
+        human1.setAge(12);
         human1.getInfo();
     }
 }
