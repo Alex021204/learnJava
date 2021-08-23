@@ -1,3 +1,4 @@
+import java.lang.String;
 public class Lesson_this {
     public static void main(String[] args){
         Human human1 = new Human();
@@ -11,16 +12,16 @@ public class Lesson_this {
     }
 }
 class Human{
-    java.lang.String name;
+    String name;
     int age;
 
-    public void setName(java.lang.String name){
+    public void setName(String name){
         this.name = name;
     }
     public void setAge(int age){
         this.age = age;
     }
-    public java.lang.String getName(){
+    public String getName(){
         return name;
     }
     public int getAge(){
